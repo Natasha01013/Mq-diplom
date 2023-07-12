@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "OpenSans Regular";
+  font-family: "OpenSans";
   src: local("OpenSans Regular"),
     url("../fonts/OpenSans-Regular.woff")
       format("woff");
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: "OpenSans Bold";
+  font-family: "OpenSans";
   src: local("OpenSans Bold"),
     url("../fonts/OpenSans-Bold.woff")
       format("woff");
@@ -18,7 +18,7 @@
 
 body {
   margin: 0;
-  font-family: "Open Sans Regular", sans-serif;
+  font-family: "OpenSans", sans-serif;
 }
 
 /*____________________________________________________________________header*/
@@ -106,7 +106,7 @@ display: none;
   line-height: 75px;
   text-transform: uppercase;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -120,7 +120,7 @@ display: none;
   font-size: 20px;
   text-transform: uppercase;
   color: #0f0d0e;
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -147,7 +147,8 @@ display: none;
   background-position: center center;
   background-size: cover;
   max-width: 25%;
-  padding: 133px 20px 15px 20px;
+  min-height: 320px;
+  padding: 0px 20px 15px 20px;
   box-sizing: border-box;
   display: flex;
 
@@ -211,7 +212,7 @@ display: none;
   font-size: 14px;
   text-transform: uppercase;
   color: #b59f5b;
-  font-weight: 700;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -228,7 +229,7 @@ display: none;
   line-height: 24px;
   text-transform: uppercase;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -288,7 +289,7 @@ display: none;
   font-size: 14px;
   text-transform: uppercase;
   color: #b59f5b;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .news-link-item:hover {
@@ -307,7 +308,7 @@ display: none;
   text-decoration: none;
   color: #0f0d0e;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .section-title-link:hover {
@@ -318,7 +319,6 @@ display: none;
   display: inline-block;
   font-size: 12px;
   color: #888888;
-  font-weight: 400;
   padding-right: 15px;
 }
 
@@ -326,14 +326,13 @@ display: none;
   display: inline-block;
   font-size: 12px;
   color: #000000;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .text {
   font-size: 15px;
   line-height: 22px;
   color: #0f0d0e;
-  font-weight: 400;
   padding: 0px;
 }
 
@@ -351,7 +350,7 @@ display: none;
   font-size: 14px;
   text-transform: uppercase;
   color: #0f0d0e;
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
   padding-bottom: 0;
   margin-bottom: 29px;
@@ -395,7 +394,6 @@ display: none;
   opacity: 0.541;
   font-size: 12px;
   color: #000000;
-  font-weight: 400;
 }
 
 .new-post-subject {
@@ -407,7 +405,7 @@ display: none;
   line-height: 18px;
   text-transform: uppercase;
   color: #000000;
-  font-weight: 700;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -448,7 +446,7 @@ display: none;
   font-size: 13px;
   line-height: 40px;
   color: #000000;
-  font-weight: 400;
+  font-weight: bold;
 
   height: 48px;
   width: 222px;
@@ -484,7 +482,7 @@ display: none;
   font-size: 14px;
   text-transform: uppercase;
   color: #0f0d0e;
-  font-weight: 700;
+  font-weight: bold;
   display: block;
   text-align: center;
 }
@@ -505,7 +503,6 @@ display: none;
   font-size: 13px;
   line-height: 40px;
   color: #000000;
-  font-weight: 400;
   height: 48px;
   width: 100%;
   box-sizing: border-box;
@@ -538,7 +535,7 @@ display: none;
   line-height: 40px;
   text-transform: uppercase;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 /*_______________________________________________________tegs*/
@@ -548,7 +545,7 @@ display: none;
   line-height: 29px;
   text-transform: uppercase;
   color: #0f0d0e;
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
   margin-top: 60px;
 }
@@ -594,7 +591,7 @@ display: none;
   line-height: 40px;
   text-transform: uppercase;
   color: #0f0d0e;
-  font-weight: 700;
+  font-weight: bold;
   list-style-type: none;
   padding: 7px 13px 7px 13px;
 }
@@ -606,7 +603,7 @@ display: none;
   line-height: 29px;
   text-transform: uppercase;
   color: #0f0d0e;
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
   margin-top: 54px;
 }
@@ -635,7 +632,7 @@ display: none;
   font-size: 14px;
   line-height: 47px;
   color: #000000;
-  font-weight: 700;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -647,7 +644,7 @@ display: none;
   font-size: 12px;
   line-height: 36px;
   color: #b59f5b;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 /*_______________________________________блок наши изделия*/
@@ -662,7 +659,7 @@ display: none;
   font-size: 20px;
   text-transform: uppercase;
   color: #0f0d0e;
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -698,8 +695,6 @@ display: none;
 }
 
 .section-product {
-  display: flex;
-  flex-direction: column;
   flex-grow: 1;
   max-width: 300px;
   outline: 3px solid #b59f5b;
@@ -713,13 +708,15 @@ display: none;
   font-size: 20px;
   text-transform: uppercase;
   color: #0f0d0e;
-  font-weight: 700;
+  font-weight: bold;
+  margin-top: 23px;
 }
 
 .text-product {
   font-size: 15px;
   line-height: 22px;
   color: #0f0d0e;
+  margin-bottom: 23px;
 }
 
 .link-text-product {
@@ -747,22 +744,19 @@ display: none;
   text-decoration: line-through;
   text-transform: uppercase;
   color: #0f0d0e;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .discount-price-product {
   font-size: 20px;
   text-transform: uppercase;
   color: #0f0d0e;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .button-product {
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-weight: 700;
-  padding: 20px 30px;
+  font-weight: bold;
+  padding: 20px 30px; 
   background-color: #b59f5b;
   border: 0px none #b59f5b;
   cursor: pointer;
@@ -770,6 +764,13 @@ display: none;
 
 .button-product:hover {
   background-color: #323232;
+}
+
+.button-product-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /*_____________________________________________________footer*/
@@ -785,14 +786,14 @@ display: none;
 .footer-social-icon {
   display: flex;
   margin: 63px 0 72px 0;
-  padding: 31px 495px 32px 525px;
+  padding: 31px 0px;
   background-color: #f4f7f6;
 }
 
 .footer-list {
   display: flex;
   flex-direction: row;
-  margin: 0;
+  margin: 0 auto;
   padding-left: 0;
 }
 
@@ -835,7 +836,7 @@ display: none;
   font-size: 12px;
   line-height: 40px;
   color: #999999;
-  font-weight: 700;
+  font-weight: bold;
   text-decoration: none;
   display: block;
   text-align: center;
@@ -889,7 +890,7 @@ display: none;
   font-size: 20px;
   text-transform: uppercase;
   color: #0f0d0e;
-  font-weight: 700; 
+  font-weight: bold; 
   text-align: center;
   margin: 0;
 }
@@ -991,7 +992,7 @@ display: none;
   font-size: 14px;
   text-transform: uppercase;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: bold;
   height: 48px;
   background-color: #b59f5b;
   border: 0px none;
@@ -1062,9 +1063,17 @@ display: none;
   .news {
     flex-direction: column;
   }
+
+  .news:nth-child(-n+4) {
+    border-bottom: 3px solid #eeeeee;
+  }
+
+  .news:nth-child(n + 2) {
+    margin-top: 40px;
+  }
   
   .news-picture-post {
-    margin-bottom: 17px;
+    margin: 0 0 17px;
   }
   
   .section-title-link {
@@ -1073,6 +1082,7 @@ display: none;
   
   .our-productions {
     max-width: 698px;
+    margin-top: 50px;
   }
   
   .product-cards {
@@ -1090,8 +1100,7 @@ display: none;
   }
   
   .footer-social-icon {
-  margin: 50px 0px;
-  padding: 31px 295px;
+    margin: 50px 0px;
   }
 
   .tittle-popup {
@@ -1179,12 +1188,17 @@ display: none;
   }
 
   .main {
-    margin: 0 auto 68px;
-    width: 330px;
+    margin: 0 auto 44px;
+    max-width: 330px;
   }
 
   .news {
     flex-direction: column;
+    border-bottom: 3px solid #eeeeee;
+  }
+
+  .news:nth-child(n + 2) {
+    margin-top: 35px;
   }
 
   .news-picture-post {
@@ -1239,6 +1253,7 @@ display: none;
   
   .our-productions {
     min-width: 330px;
+    margin-top: 45px;
   }
 
   .product-cards {
@@ -1264,11 +1279,6 @@ display: none;
   
   .footer-social-icon {
     margin: 42px 0 50px 0;
-    padding: 31px 0px;
-  }
-
-  .footer-list {
-    margin: 0 auto;
   }
 
   .tittle-popup {
