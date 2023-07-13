@@ -1057,9 +1057,13 @@ display: none;
   }
   
   .content {
-    max-width: 698px;
+    max-width: 100%;
   }
-  
+
+  .main {
+    margin-right: 35px;
+  }
+
   .news {
     flex-direction: column;
   }
@@ -1075,13 +1079,17 @@ display: none;
   .news-picture-post {
     margin: 0 0 17px;
   }
+
+  .section-news {
+    max-width: 100%;
+  }
   
   .section-title-link {
     font-size: 17px;   
   }
   
   .our-productions {
-    max-width: 698px;
+    max-width: 100%;
     margin-top: 50px;
   }
   
@@ -1090,13 +1098,22 @@ display: none;
     justify-content: space-between;
     gap: 23px;
   }
+
+  .picture-product {
+    max-width: 100%;
+  }
   
   .div-productions {
-    max-width: 290px;
+    max-width: calc((100% - 23px) / 2);
+    box-sizing: border-box;
+  }
+
+  .section-product {
+    max-width: 100%;
   }
   
   .footer {
-    max-width: 698px;
+    max-width: 100%;
   }
   
   .footer-social-icon {
@@ -1184,12 +1201,12 @@ display: none;
   
   .content {
     flex-wrap: wrap;
-    min-width: 330px;
+    max-width: 100%;
   }
 
   .main {
     margin: 0 auto 44px;
-    max-width: 330px;
+    max-width: 100%;
   }
 
   .news {
@@ -1202,12 +1219,13 @@ display: none;
   }
 
   .news-picture-post {
-    min-width: 330px;
+    max-width: 100%;
     margin: 0;
   }
 
   .section-news {
     margin-top: 17px;
+    max-width: 100%;
   }
   
   .section-title-link {
@@ -1220,15 +1238,19 @@ display: none;
 
   .aside {
     margin: 0 auto;
-    min-width: 330px;
+    min-width: 100%;
   }
   
   .new-post-title {
     font-size: 16px;
   }
 
+  .label-search {
+    width: 100%;
+  }
+
   .input-text {
-    width: 282px;
+    width: 100%;
   }
   
   .mailing {
@@ -1236,11 +1258,11 @@ display: none;
   }
   
   .label-search-two {
-    width: 329px;
+    max-width: 100%;
   }
   
   .button-two {
-    width: 330px;
+    max-width: 100%;
   }
   
   .tegs {
@@ -1252,7 +1274,7 @@ display: none;
   }
   
   .our-productions {
-    min-width: 330px;
+    max-width: 100%;
     margin-top: 45px;
   }
 
@@ -1266,15 +1288,19 @@ display: none;
   }
   
   .div-productions {
-    max-width: 285px;
+    max-width: 100%;
   }
   
   .tittle-product {
     font-size: 17px;
   }
+
+  .section-product {
+    max-width: 100%;
+  }
   
   .footer {
-    min-width: 330px;
+    max-width: 100%;
   }
   
   .footer-social-icon {
