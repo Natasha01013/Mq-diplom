@@ -191,6 +191,7 @@ display: none;
   padding: 40px 0px 30px 33px;
   padding-right: 4%;
   min-width: -webkit-fill-available;
+  min-width: -moz-fill-available;
 }
 
 .list-trend {
